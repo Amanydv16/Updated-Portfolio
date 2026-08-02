@@ -1,176 +1,97 @@
-# 3D Portfolio Website
+# Aman Yadav — 3D Developer Portfolio
 
-This repository contains the source code for a personal 3D portfolio built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions designed for a modern portfolio experience.
+This repository contains the source code for **Aman Yadav's** personal 3D developer portfolio built with React 18, TypeScript, Three.js, React Three Fiber, and GSAP. It features interactive 3D models, smooth section animations, project showcases, and a clean professional experience timeline.
 
-Live site: [https://akashrmalhotra.netlify.app/](https://akashrmalhotra.netlify.app/)
+Repository: [https://github.com/Amanydv16/Updated-Portfolio](https://github.com/Amanydv16/Updated-Portfolio)
 
-![Portfolio Preview](public/images/preview1.png)
+---
 
-## Table of Contents
+## Highlights & Featured Sections
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [GSAP License Note](#gsap-license-note)
-- [Customization Guide](#customization-guide)
-- [Troubleshooting](#troubleshooting)
-- [Deployment](#deployment)
-- [License](#license)
+- **Landing Section**: Dynamic headline with animated roles (`AI / ML` & `Full Stack`).
+- **About Me**: Professional summary highlighting 9+ months of internship experience in Full-Stack Development, Machine Learning, and Data Analytics, along with B.Tech CSE (AI/ML) at VIT Bhopal University (CGPA 9.03/10).
+- **What I Do**: Full-Stack & Backend Engineering (Python, Django, Node.js, FastAPI, REST APIs, SQL, AWS, Docker) and AI/ML (TensorFlow, OpenCV, LLMs, RAG, LangChain, Analytics).
+- **Work / Projects Carousel**:
+  - **Beatwell-AI**: AI-Driven Heart Disease Prediction System (94% accuracy, 1,000+ active users) with custom dark UI showcase.
+  - **GesturEase**: Computer vision real-time gesture recognition system (95% accuracy, 40% accessibility boost) with real-time hand-landmark tracking UI.
+- **Experience Timeline**:
+  - **Monetunes** | Full Stack Software Engineer (Aug 2026 – Present)
+  - **Songdew** | Full Stack Intern (Jun 2026 – Jul 2026)
+  - **Instahyre** | Full Stack Intern (Feb 2026 – Apr 2026)
+  - **Indian Oil Corporation Ltd.** | Software Engineering Intern (Nov 2025 – Feb 2026)
+  - **VIT Bhopal University** | B.Tech CSE (AI/ML) (Aug 2022 – Jun 2026)
+- **Interactive Tech Stack**: 3D interactive floating physics spheres for skills (React, Node, Python, MySQL, MongoDB, TypeScript, etc.).
+- **Resume & Contact**: Direct access to official resume (`Aman_Yadav_Resume.pdf`), GitHub, LinkedIn, Email, and Phone.
 
-## Features
-
-- Responsive one-page portfolio layout with reusable section components.
-- 3D character scene rendering powered by React Three Fiber and Three.js.
-- GSAP-powered animations and transitions for interactive storytelling.
-- Custom cursor, hover interactions, and scroll-driven visual effects.
-- Organized component architecture with dedicated utilities and style modules.
+---
 
 ## Tech Stack
 
-### Core
+### Core Frameworks
+- **React 18**
+- **TypeScript**
+- **Vite**
 
-- React 18
-- TypeScript
-- Vite
+### 3D & Animation
+- **Three.js**
+- **@react-three/fiber**
+- **@react-three/drei**
+- **@react-three/rapier** (3D physics)
+- **GSAP** + **@gsap/react** (ScrollSmoother, ScrollTrigger, SplitText)
 
-### Animation and 3D
+### UI Icons & Components
+- **react-icons**
+- **react-fast-marquee**
 
-- GSAP + `@gsap/react`
-- Three.js
-- `@react-three/fiber`
-- `@react-three/drei`
-- `@react-three/postprocessing`
-- `@react-three/cannon`
-- `@react-three/rapier`
-
-### Supporting Libraries
-
-- `react-icons`
-- `react-fast-marquee`
-- `@vercel/analytics`
-
-## Project Structure
-
-```text
-.
-├── public/                    # Static assets
-├── src/
-│   ├── assets/                # Local media/assets
-│   ├── components/
-│   │   ├── Character/         # 3D scene + character logic/utilities
-│   │   ├── styles/            # Section/component CSS files
-│   │   ├── About.tsx
-│   │   ├── Career.tsx
-│   │   ├── Contact.tsx
-│   │   ├── Landing.tsx
-│   │   ├── MainContainer.tsx  # Main page composition
-│   │   ├── Navbar.tsx
-│   │   ├── TechStack.tsx
-│   │   ├── WhatIDo.tsx
-│   │   └── Work.tsx
-│   ├── context/               # Global providers (loading state, etc.)
-│   ├── data/                  # Static data/content definitions
-│   ├── App.tsx
-│   └── main.tsx
-├── package.json
-└── vite.config.ts
-```
+---
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ (recommended)
-- npm 9+ (or compatible)
+- **Node.js**: v18+ recommended
+- **npm**: v9+ recommended
 
 ### Installation
 
 1. Clone the repository:
-
    ```bash
-   git clone <your-repository-url>
-   cd 3d-portfolio
+   git clone https://github.com/Amanydv16/Updated-Portfolio.git
+   cd Updated-Portfolio
    ```
 
 2. Install dependencies:
-
    ```bash
    npm install
    ```
 
-3. Start the local development server:
-
+3. Run the development server:
    ```bash
    npm run dev
    ```
 
-4. Open the URL shown in the terminal (typically `http://localhost:5173`).
+4. Open `http://localhost:5173/` in your browser.
+
+---
 
 ## Available Scripts
 
-- `npm run dev`  
-  Starts Vite dev server and exposes host for local network testing.
+- `npm run dev`: Launches local development server with Vite.
+- `npm run build`: Type-checks (`npx tsc -b`) and builds production output in `dist/`.
+- `npm run preview`: Serves production build locally for verification.
 
-- `npm run build`  
-  Type-checks and builds a production-ready bundle.
+---
 
-- `npm run preview`  
-  Serves the production build locally for verification.
+## Contact & Connect
 
-- `npm run lint`  
-  Runs ESLint checks across the project.
+- **Name**: Aman Yadav
+- **Email**: [amanyadavji1616@gmail.com](mailto:amanyadavji1616@gmail.com)
+- **Phone**: +91-8299572188
+- **LinkedIn**: [linkedin.com/in/Amanydv16/](https://www.linkedin.com/in/Amanydv16/)
+- **GitHub**: [github.com/aman-ydvv16](https://github.com/aman-ydvv16)
 
-## GSAP License Note
-
-This project uses the standard `gsap` package, including bonus plugins now available in the core package.
-
-- Install dependencies with `npm install`.
-- If migrating from older setups, remove `gsap-trial` from your project.
-
-Read official installation guidance here: [GSAP Installation Docs](https://gsap.com/docs/v3/Installation/)
-
-## Customization Guide
-
-You can adapt this portfolio to your own profile by updating the following areas:
-
-- **Content sections**: Edit files in `src/components/` such as `About.tsx`, `Career.tsx`, `WhatIDo.tsx`, and `Work.tsx`.
-- **Data source**: Update static values in files under `src/data/`.
-- **Styling**: Modify component styles in `src/components/styles/` and global styles in `src/index.css` / `src/App.css`.
-- **3D scene behavior**: Adjust scene logic in `src/components/Character/` and related utilities.
-- **Animations**: Tweak GSAP utilities under `src/components/utils/`.
-
-## Troubleshooting
-
-- **Blank screen in development**  
-  Check browser console for module import errors and verify all dependencies are installed.
-
-- **3D performance issues on low-end devices**  
-  Reduce scene complexity and post-processing effects in the character/scene utilities.
-
-- **GSAP plugin errors**  
-  Ensure you have the correct plugin package and license configuration for your target environment.
-
-- **TypeScript build failures**  
-  Run `npm run build` and address reported type errors before deploying.
-
-## Deployment
-
-1. Create a production build:
-
-   ```bash
-   npm run build
-   ```
-
-2. Validate locally:
-
-   ```bash
-   npm run preview
-   ```
-
-3. Deploy the generated `dist/` folder to your hosting provider (for example Vercel, Netlify, or Cloudflare Pages).
+---
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This repository is open-source under the [MIT License](LICENSE).
