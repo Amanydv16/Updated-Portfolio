@@ -90,7 +90,7 @@ Repository: [https://github.com/Amanydv16/Updated-Portfolio](https://github.com/
 - **Name**: Aman Yadav
 - **Email**: [amanyadavji1616@gmail.com](mailto:amanyadavji1616@gmail.com)
 - **Phone**: +91-8299572188
-- **LinkedIn**: [linkedin.com/in/Amanydv16/](https://www.linkedin.com/in/Amanydv16/)
+- **LinkedIn**: [linkedin.com/in/aman-ydvv16/](https://www.linkedin.com/in/aman-ydvv16/)
 - **GitHub**: [github.com/aman-ydvv16](https://github.com/aman-ydvv16)
 
 ---
