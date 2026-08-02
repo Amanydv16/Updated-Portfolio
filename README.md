@@ -2,7 +2,10 @@
 
 This repository contains the source code for **Aman Yadav's** personal 3D developer portfolio built with React 18, TypeScript, Three.js, React Three Fiber, and GSAP. It features interactive 3D models, smooth section animations, project showcases, and a clean professional experience timeline.
 
+Live Website: [https://amanportfolioooo.netlify.app/](https://amanportfolioooo.netlify.app/)  
 Repository: [https://github.com/Amanydv16/Updated-Portfolio](https://github.com/Amanydv16/Updated-Portfolio)
+
+![Aman Yadav Portfolio Preview](public/images/preview.png)
 
 ---
 
